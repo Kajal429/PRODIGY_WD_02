@@ -1,0 +1,974 @@
+*{padding:0; margin:0}
+ul li,p,a{font-size: 18px; line-height:23px; font-family: "Poppins", sans-serif;}
+h1,h2, h3, h4, h5, h6{font-family:"Oswald", sans-serif;}
+
+.header-container{  
+    padding:40px 0;   
+}
+
+.lg-container{
+       max-width:1350px;
+       margin:auto;
+       width: 100%;
+}
+.col-1 ul li{
+    list-style-type: none;
+    font-size: 18px; line-height: 23px;
+}
+
+.row-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col-1 ul{
+    display: flex;
+    gap:38px;
+}
+
+footer{
+    background-color:#ededed;
+    padding:40px 0 40px 0;
+}
+
+.row-footer{ 
+    display:flex;
+    justify-content:space-around;
+    gap:10px;
+}
+
+.logo-footer{
+    text-align: center;
+    padding:10px 0 0 0;
+}
+
+.row-main{
+  display:grid;
+  gap:30px;
+  grid-template-columns: 30% 30% 30%;
+}
+
+
+/******** top section ******** */
+.top-head{background: url(images/prostadinebg.webp) no-repeat; height: 863px;
+    padding: 20px 0; background-size: contain; max-width: 100%; height: auto;
+}
+
+.text h1{
+    font-size:114px;
+    font-weight:550;
+     font-family: "Poppins", sans-serif;
+    color:#fff; 
+    line-height: 1;
+}
+
+h2{
+    font-size:50px;
+       font-family: "Oswald", sans-serif;
+       font-weight:450; 
+       padding-bottom:10px;
+       color:white;
+}
+
+p{
+    font-size:20px;
+    font-weight:400;
+    color:whitesmoke;
+    line-height: 1.5;
+    word-spacing:  0.2em;;
+}
+
+.main-lg-container{
+  display: flex;
+  flex-direction:column;
+  gap:10px;
+  padding: 40px 275px 0px;
+}
+
+.list li{
+    font-size:30px; line-height: 35px;
+    font-weight:500;
+    font-family: "Oswald", sans-serif;
+    color: white;position: relative;padding: 0 0 0 50px;
+    list-style-type:none;
+    padding-bottom:5px;
+    line-height:1.6;  
+}
+
+.list li::before{content: "";background: url(images/right-mark.webp);display: block;width: 44px;height: 40px;position: absolute; top:2px;left: 0;}
+
+.button-link{
+    display:inline-block;
+    color: white;
+    padding:15px 10px;
+    background:linear-gradient(#cc0404,#810304);
+    height: 35px;
+    border-radius: 5px;
+    font-size: 32px;
+    font-family: "Oswald", sans-serif; 
+    text-align:center;
+    width:100%;
+    max-width:350px;
+
+}
+
+.white-text{
+    color: white;
+}
+.yellow-text{
+    color: yellow;
+}
+
+.img-container{
+    display: flex;
+    gap:25px;
+    padding: 10px 0 30px 0;
+}
+
+ h2{
+    font-size:50px;
+    color:midnightblue;
+    font-weight:500;
+    padding-bottom:20px;
+ }
+
+ h4{
+    font-size:30px;
+    color:midnightblue;
+    font-weight:450;
+    padding-bottom:10px;
+ }
+ .para-1{
+    color:black;
+    font-weight:400;
+    padding-bottom: 25px;
+    word-spacing:0;
+ }
+
+ .para-2{
+    color: black;
+    font-weight:400;
+    padding-bottom: 30px;
+    word-spacing:0;
+ }
+
+.wraper{
+    display:grid;
+    grid-template-columns:38% 60% 10%;
+    margin-top: 20px;
+}
+
+ .heading{
+     font-family: "Oswald", sans-serif;
+     font-size:75px;
+     font-weight: 500;
+     color:black;
+    text-align: center;
+ }
+
+
+ .blue{
+    color:midnightblue;
+ }
+ .red{
+    color:#cc0404;
+ }
+
+
+.border h2{
+    position:relative;
+    max-width:max-content;
+    width:100%;
+    margin:auto;
+    Padding:0px 25px 0px;
+    background-color: #fff;
+}
+
+
+.border h2::before{content: ""; display: block; background-color:black; width:1px; height:40px; position:absolute; top:22px; left:0px;  
+}
+
+.border h2::after{content: ""; display:block; background-color:black; width:1px; height:40px; position:absolute; top:22px; right:0px;}
+
+.border{position:relative;
+    margin:1px;
+    top:0px;
+    left:0px;
+    z-index:1px;
+}
+
+.border::before{content: ""; display:block; width:100%; height:1px; position:absolute; top:42px; left:0px; margin:1px; 
+        background:black;
+}
+  
+/******** money back gurantee ******** */
+
+h3{
+    color:yellow;
+    font-family: "Oswald", sans-serif;
+    font-size: 33px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+.p1 {
+     color: white;
+     padding-bottom: 10px;
+     word-spacing: 0;
+     padding:0 0 10px 0;
+}
+.p2 {
+     color: white;
+     padding-bottom: 20px;
+      word-spacing: 0;
+}
+.yellow{
+    color: yellow;
+}
+
+.hd {
+    color: yellow;
+    font-size: 33px;
+}
+
+.check-list li{
+    font-size:20px; line-height: 30px;
+    color: white;
+    list-style-type:none;
+    padding: 0 0 15px 50px;
+    position:relative;
+}
+
+.container{
+    background-color: #0c1c44;
+    border-radius: 15px;
+    margin-top: 20px;
+    display:grid;
+    grid-template-columns: 42% 53% 0%;
+}
+
+.check-list li::before{content: ""; background: url(images/right-mark.webp); display:block;width: 40px;height: 40px; position:absolute;
+    left:0;
+}
+
+.check-list{
+    padding-bottom: 10px;
+}
+
+/******** why choose prostadine ******** */
+.pg{
+    color: black;
+    text-align: center;
+    padding-top:5px;
+    word-spacing: 0;
+}
+
+.choice{
+    padding-top: 40px;
+}
+
+.card-content h5{
+    color:midnightblue;
+    font-size: 25px;
+    font-weight:500;
+    text-align: center;
+   
+}
+.card-content p {
+    color: black;
+    padding-top: 10px;
+    text-align: center;
+    padding-top: 15px;
+    word-spacing: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.info-container{
+    display:grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    gap:30px;
+    padding: 25px 0 65px 0;
+}
+
+.card img{
+  display: block;
+  margin: auto;
+  padding: 0 0 5px;
+}
+
+/******** how prostadine works******** */
+
+.hd h2{
+    font-size:48px;
+    color:#0c1c44;
+    text-align:center;
+    padding:20px 0 0 0;
+}
+    
+.topper{background: url(images/leaf.webp); background-repeat: no-repeat; height:970px; background-size:cover;
+ padding:5px 0 0 0}
+
+.leaf{
+    background-color: white;
+    height: 840px;
+    margin-top: 59px;
+    border-radius: 10px;
+}
+
+.arrow-content h5{
+    color:midnightblue;
+    font-size: 30px;
+    font-weight:500;
+    text-align: center;
+}
+
+.arrow-content p{
+    font-family: "Poppins", sans-serif;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    word-spacing: 0;
+    padding:10px 0 30px 20px;
+}
+
+.col-3{
+    padding:30px;
+    display: grid;
+    grid-template-columns: 38% 22% 34%;
+}
+
+.xl-container{
+       max-width:1570px;
+       width: 100%;
+       margin: auto;
+} 
+    
+.arr-container img{
+     display:block;
+     margin: auto;
+     padding-bottom: 20px;
+}
+
+.arrow-1 img{
+  display: block;
+  margin: auto;
+  padding: 0 0 20px 200px ; /* top rt bt lft */
+}
+
+.arrow-container{
+    padding: 30px 0 0 20px;
+} 
+
+.arro-container{
+    padding: 30px 0 0 20px;
+}
+.arrow-2 img{
+   padding: 0 0 0 30px;
+}
+
+/******** expect from prostadine******** */
+
+.cells{
+    background-color: #0c1c44;
+    height: 300px;
+}
+
+.head h2{
+    color: white;
+    text-align: center;
+    padding: 30px 20px 0 20px;
+}
+
+.pl p{
+    color:white;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding:10px 0 16px 0;
+    word-spacing: 0;
+}
+
+.head{
+    position: relative;
+    top:0px;
+    left:0px;
+}
+
+.head h2{
+    position:relative;
+    max-width:max-content;
+    width:100%;
+    margin:auto;
+    background-color: #0c1c44;
+  }
+
+
+.head h2::before{content: ""; display: block; background-color:yellow; width:1px; height:40px; position:absolute; top:50px; left:0px;  
+}
+
+.head h2::after{content: ""; display: block; background-color:yellow; width:1px; height:40px; position:absolute; top:50px; right:0px;  
+}
+
+.head::before{content:"";display:block; background-color: yellow; width:100%; height:1px; position:absolute; top:70px; left:0px; margin:1px;  
+}
+
+.category li{
+    font-size:20px; line-height:30px;
+    color: white;
+    list-style-type:none;
+    position:relative;
+    padding: 10px 0 10px 50px;
+    }
+
+.category{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.category li::before{content: ""; background: url(images/right-mark.webp); display:block; width: 40px;height: 40px; position:absolute;
+    left:0;
+}
+
+.yellow-txt{
+    color: yellow;
+    font-size:23px;
+}
+
+/******** ingridents and QA******** */
+
+.page {
+    color:black;
+    text-align: center;
+    padding-top:5px;
+    word-spacing: 0;
+}
+
+.ingredients{
+    padding: 30px;
+    display: grid;
+    gap:15px;
+    grid-template-columns: 32% 32% 32%;
+}
+
+.ingredient-content p{
+    font-family: "Poppins", sans-serif;
+    color: black;
+    font-size:16px;
+    text-align: center;
+    word-spacing: 0;
+    padding: 0 0 20px 0;
+}
+
+.ingredient-content h5{
+    color:black;
+    font-size: 30px;
+    font-weight:500;
+    text-align: center;
+    padding: 10px 0 20px 0;
+}
+
+.ingredient-1 img{
+    display: block;
+    margin: auto;
+}
+
+.ingredient-2 img{
+    display: block;
+    margin: auto;
+}
+
+.ingredient-3 img{
+    display: block;
+    margin: auto;
+}
+
+.italic p{
+    color:#161616;
+    word-spacing: 0;
+    font-family: "Oswald", sans-serif;
+    font-size:26px;
+    font-weight: 500;
+    padding: 30px 0 20px 0;
+    text-align: center;
+}
+
+.text-container{
+    text-align: center;
+    padding: 10px 0 50px 0;
+}
+
+.hed h2{
+    font-size:50px;
+    color:#0c1c44;
+    text-align:center;
+    padding:35px 0 15px 0;
+}
+
+.circle-container{
+    display: flex;
+    justify-content:center;
+    gap:10px;
+}
+
+.circle-2{
+    height:15px;
+    width:15px;
+    background-color: transparent;
+    border: 2px solid #FDDA0D;
+    border-radius: 50%;
+}
+
+.circle-1{
+    height:15px;
+    width:15px;
+    border: 2px solid #FDDA0D;
+    background-color:#FDDA0D;
+    border-radius: 50%;
+}
+
+.ingredient-1{
+    position:relative;
+    top:0;
+    left:0;
+}
+
+.ingredient-3{
+    position:relative;
+    top:0;
+    right:0;
+}
+
+.ingredient-1::before{content:"\2039"; position: absolute;top:150px; left:0; margin:1px; font-size:60px;}
+
+.ingredient-3::after{content:"\203A"; position: absolute;top:150px; right:0; margin:1px; font-size:60px;}
+
+
+/******** customers review********/
+
+.cust-container{
+ background-color: #0c1c44;
+ height: 535px;
+}
+
+.def h2{
+  color: white;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  padding:0 0 28px 0;
+}
+
+.left-content img{
+    display: block;
+    margin: auto;
+}
+
+.rev-content p{
+  color:white;
+  word-spacing: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+  padding: 0 50px 10px 50px;
+  text-align: center;
+}
+
+.rev-content h6{
+    color:#FDDA0D;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    text-align:center;
+    padding: 0 0 20px 0;
+}
+
+.line{
+    justify-content: center;
+    display: flex;
+    gap:10px;
+}
+
+.line-1{
+   width:44px;
+   border-bottom: 3px solid orange;
+   margin-top:3px;
+}
+
+.line-2{
+   width:44px;
+   border-bottom: 3px solid white;
+   margin-top:3px;
+}
+
+.star{
+    color:orange;
+    font-size:32px;
+    text-align: center;
+}
+
+.customers{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.left-content{
+       max-width:730px;
+       width: 100%;
+       padding:27px 0 27px 75px;
+       margin: auto;
+       margin-top: 0;
+}
+
+/******** Frequently asked questions ********/
+
+.question-contents{
+  max-width: 930px;
+  width: 100%;
+  margin:auto;
+}
+
+.mid-content p{
+  font-size:26px;
+  word-spacing: 0;
+  font-weight: 438;
+  color: black;
+  font-family: "Oswald", sans-serif;
+  padding:7px;
+}
+
+.plus{
+    font-size:16px; 
+    padding:0 15px 0 0;
+}
+
+hr{
+    border: 1px solid black;
+    width:100%
+}
+
+.mid-content{
+   padding:0 0 80px 0;
+}
+
+/***** Banner img *****/
+
+.banner-container{
+    background: url(images/Banner-image.webp); background-repeat: no-repeat; height:590px; 
+    background-size:cover; 
+}
+
+
+/***** footer *****/
+
+.logo-footer img{
+ display:block;
+ margin: auto;
+ padding:0 0 30px 0;
+}
+
+.row-main{
+    display: grid;
+    grid-template-columns: 35% 62%;
+    gap:40px;
+}
+
+.about p{
+    color: black;
+    text-align:justify;
+    word-spacing: 0;
+    font-size:15px;
+}
+
+
+@media screen and (max-width: 480px) {
+
+  /* ── global resets ── */
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { overflow-x: hidden; width: 100%; }
+  ul li, p, a { font-size: 14px; line-height: 1.5; }
+
+  /* ── containers ── */
+  .lg-container,
+  .xl-container,
+  .main-lg-container,
+  .footer-container { width: 100%; padding-left: 16px; padding-right: 16px; }
+
+  /* ── HEADER ── */
+  .header-container { padding: 12px 16px; }
+
+  .row-header {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .img { order: -1; }
+  .img img { max-width: 130px; height: auto; display: block; margin: auto; }
+
+  .col-1 ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px 14px;
+    padding: 0;
+  }
+  .col-1 ul li { font-size: 12px; list-style: none; }
+
+  /* ── HERO (top-head) ── */
+  .top-head {
+    background-size: cover;
+    background-position: center top;
+    height: auto;
+    padding: 24px 0 28px;
+  }
+
+  .main-lg-container {
+    flex-direction: column;
+    padding: 16px 16px 0;
+    gap: 10px;
+  }
+
+  .text h1 {
+    font-size: 40px;
+    line-height: 1;
+    color: #fff;
+  }
+
+  /* global h2 override for mobile */
+  h2 { font-size: 22px !important; padding-bottom: 8px; }
+  h3 { font-size: 19px; padding-top: 10px; }
+  h4 { font-size: 17px; }
+  p  { font-size: 14px; }
+
+  .list { padding: 0; }
+  .list li {
+    font-size: 15px;
+    padding-left: 36px;
+    padding-bottom: 6px;
+    line-height: 1.5;
+  }
+  .list li::before {
+    width: 28px; height: 26px;
+    background-size: contain;
+    top: 3px;
+  }
+
+  .button-link {
+    display: block;
+    font-size: 17px;
+    height: auto;
+    padding: 13px 12px;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 0 18px;
+  }
+  .img-container img { max-width: 58px; height: auto; }
+
+  /* ── ABOUT ── */
+  .wraper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 14px;
+    gap: 0;
+  }
+  .wraper > img {
+    display: block;
+    margin: 0 auto 14px;
+    max-width: 200px;
+    height: auto;
+  }
+
+  .heading {
+    font-size: 19px !important;
+    line-height: 1.2;
+    padding: 14px 0 10px;
+    text-align: center;
+  }
+
+  .para-1 { font-size: 14px; padding-bottom: 12px; }
+  .para-2 { font-size: 14px; padding-bottom: 16px; }
+
+  /* ── MONEY-BACK ── */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 14px;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+  .container > img {
+    display: block;
+    margin: 0 auto 12px;
+    max-width: 160px;
+    height: auto;
+  }
+  .rt-content { width: 100%; }
+
+  .check-list li {
+    font-size: 13px;
+    padding-left: 36px;
+    line-height: 1.5;
+    padding-bottom: 10px;
+  }
+  .check-list li::before { width: 28px; height: 26px; background-size: contain; }
+  .p1, .p2 { font-size: 14px; }
+  .hd { font-size: 18px; }
+
+  /* ── WHY CHOOSE ── */
+  .choice { padding-top: 18px; }
+  .pg { font-size: 13px; }
+
+  .info-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    padding: 14px 0 24px;
+  }
+  .card img { max-width: 70px; height: auto; padding-bottom: 4px; }
+  .card-content h5 { font-size: 13px; }
+  .card-content p  { font-size: 12px; padding-top: 4px; }
+
+  /* ── HOW IT WORKS ── */
+  .topper {
+    height: auto;
+    background-size: cover;
+    padding: 10px 0 20px;
+  }
+  .leaf {
+    height: auto;
+    margin-top: 16px;
+    border-radius: 8px;
+    padding: 0 0 20px;
+  }
+  .hd h2 { font-size: 20px !important; padding: 14px 12px 6px; text-align: center; }
+
+  .col-3 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 14px;
+    gap: 0;
+  }
+
+  .arrow-container,
+  .arro-container { padding: 0; }
+
+  /* hide decorative arrow images — they're layout artifacts */
+  .arrow-1 img,
+  .arrow-2 img { display: none; }
+
+  .arrow-content h5 { font-size: 16px; text-align: left; }
+  .arrow-content p  { font-size: 13px; padding: 5px 0 16px; text-align: left; }
+
+  .arr-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+  .arr-container img { max-width: 160px; height: auto; margin-bottom: 10px; }
+
+  /* ── EXPECT ── */
+  .cells { height: auto; padding-bottom: 20px; }
+  .head h2 { font-size: 18px !important; padding: 20px 12px 0; line-height: 1.3; }
+  .pl p { font-size: 13px; padding: 8px 12px; }
+
+  .category {
+    display: flex;
+    flex-direction: column;
+    padding: 0 8px;
+  }
+  .category li {
+    font-size: 13px;
+    padding: 7px 0 7px 36px;
+    line-height: 1.4;
+  }
+  .category li::before { width: 28px; height: 26px; background-size: contain; }
+  .yellow-txt { font-size: 13px; }
+
+  /* ── INGREDIENTS ── */
+  .ig-container { padding: 0; }
+  .hed h2 { font-size: 20px !important; padding: 18px 0 10px; }
+  .page { font-size: 13px; padding: 5px 8px 0; }
+
+  .ingredients {
+    display: flex;
+    flex-direction: column;
+    padding: 14px 0;
+    gap: 18px;
+  }
+  .ingredient-1, .ingredient-2, .ingredient-3 { position: static; }
+  .ingredient-1::before, .ingredient-3::after { display: none; }
+
+  .ingredient-content h5 { font-size: 17px; padding: 8px 0 10px; }
+  .ingredient-content p  { font-size: 13px; padding-bottom: 10px; }
+
+  .italic p {
+    font-size: 14px;
+    padding: 12px 8px 8px;
+    font-style: italic;
+  }
+  .text-container { padding: 8px 0 30px; }
+
+  /* ── CUSTOMER REVIEW ── */
+  .cust-container { height: auto; padding-bottom: 24px; }
+
+  .customers {
+    display: flex;
+    flex-direction: column;
+  }
+  /* hide the decorative side photo to save space */
+  .customers > img:last-child { display: none; }
+
+  .left-content {
+    max-width: 100%;
+    padding: 16px 14px;
+    margin: 0;
+  }
+  .def h2 { font-size: 18px !important; padding-bottom: 16px; }
+  .left-content > img { max-width: 140px; height: auto; }
+  .star { font-size: 20px; }
+  .rev-content p  { font-size: 13px; padding: 0 8px 10px; }
+  .rev-content h6 { font-size: 14px; }
+
+  /* ── FAQ ── */
+  .qe-container { padding: 0 14px; }
+  .question-contents { max-width: 100%; padding: 0; }
+  .hed h2 { font-size: 20px !important; }
+
+  .mid-content p { font-size: 15px; padding: 7px 4px; }
+  .mid-content    { padding-bottom: 28px; }
+  .plus { font-size: 14px; padding-right: 10px; }
+
+  /* ── BANNER ── */
+  .banner-container {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* ── FOOTER ── */
+  footer { padding: 20px 0 18px; }
+  .logo-footer img { max-width: 130px; height: auto; padding-bottom: 18px; }
+
+  .row-main {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .row-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 28px;
+  }
+  .menu-1 ul, .menu-2 ul { padding: 0; }
+  .menu-1 ul li, .menu-2 ul li { font-size: 13px; line-height: 1.9; }
+
+  .about p { font-size: 13px; line-height: 1.6; }
+}
